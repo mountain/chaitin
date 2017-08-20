@@ -1,5 +1,14 @@
+{-# LANGUAGE NoImplicitPrelude, MultiParamTypeClasses  #-}
+
+
 module Main where
 
+import Prelude (
+    Int, (<), (-),
+    Bool, Maybe, Maybe(Nothing), Maybe(Just),
+    Monoid, mappend, mempty, (++), otherwise,
+    IO, putStrLn,
+    )
 
 type Size = Int
 
